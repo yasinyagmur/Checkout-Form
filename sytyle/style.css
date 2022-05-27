@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 35px 0;
+  display: grid;
+  grid-template-columns: 465px 320px;
+}
+
+.checkoutTitle {
+  font-family: Mon, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 15px 0;
+}
+main form{
+    position: relative;
+    width: 80%;
+}
+.dform{
+        font-family: Mon;
+        position: relative;
+        display: block;
+}
+.dform h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.dform .camp{
+    margin: 10px 0;
+}
+.dform .camp label{
+    margin: 10px 0;
+    font-size: 14px;
+    color: #4f4f4f;
+    position: relative;
+    display: block;
+}
+.dform .camp input{
+    position: relative;
+    border: 1px solid #828282;
+    color: #828282;
+    font-size: 14px;
+    padding: 8px 5px 8px 35px;
+    width: 100%;
+    border-radius: 5px;
+}
+.dform .camp .nput{
+    position: relative;
+}
+
+.dform .camp .nput i{
+    position: absolute;
+    font-size: 18px;
+    color: #828282;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 3%;
+}
+.dform .camp #country{
+    position: relative;
+    border: 1px solid #828282;
+    color: #828282;
+    font-size: 14px;
+    padding: 8px 5px 8px 35px;
+    border-radius: 5px;
+}
+.bottomblok{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.dform .post .nput{
+    color: #828282;
+    font-size: 14px; 
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.check label{
+    color: #828282;
+    font-size: 1rem;
+    margin: 10px 10px;
+}
+
+
+
+
+

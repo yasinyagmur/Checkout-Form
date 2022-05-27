@@ -5,99 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout Form</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./sytyle/style.css" />
   </head>
   <body>
     <h1 class="checkoutTitle">Checkout</h1>
     <main>
       <form action="">
-        <div class="contact">
-          <h2>Contact information</h2>
+        <div class="dform">
+          <h1>Contact information</h1>
           <div class="camp">
             <label for="email">Email</label>
-            <input
-              type="email"
-              name="user-email"
-              id="email"
-              placeholder="Enter your email..."
-              required
-            />
-            <i class="fas fa-envelope"></i>
+            <div class="nput">
+              <input
+                type="email"
+                name="user-email"
+                id="email"
+                placeholder="Enter your email..."
+                required
+              />
+              <i class="fas fa-envelope"></i>
+            </div>
           </div>
           <div class="camp">
             <label for="phone">Phone</label>
-            <input
-              type="tel"
-              name="user-Phone"
-              id="phone"
-              placeholder="Enter your phone..."
-              required
-            />
-            <i class="fas fa-phone-alt"></i>
+            <div class="nput">
+              <input
+                type="tel"
+                name="user-Phone"
+                id="phone"
+                placeholder="Enter your phone..."
+                required
+              />
+              <i class="fas fa-phone-alt"></i>
+            </div>
           </div>
         </div>
-        <div class="fshipping">
+        <div class="dform">
           <h1 class="shippingTitle">Shipping address</h1>
           <div class="shippingForm">
             <div class="camp">
               <label for="fname">Full Name</label>
-              <input
-                type="text"
-                id="fname"
-                name="userFullName"
-                placeholder="Enter your Full name..."
-                required
-              />
-              <i class="fas fa-user"></i>
+              <div class="nput">
+                <input
+                  type="text"
+                  id="fname"
+                  name="userFullName"
+                  placeholder="Enter your Full name..."
+                  required
+                />
+                <i class="fas fa-user"></i>
+              </div>
             </div>
 
             <div class="camp">
               <label for="address">Address</label>
-              <input
-                type="text"
-                id="address"
-                name="userAddress"
-                placeholder="Enter your address..."
-                required
-              />
-              <i class="fas fa-home"></i>
+              <div class="nput">
+                <input
+                  type="text"
+                  id="address"
+                  name="userAddress"
+                  placeholder="Enter your address..."
+                  required
+                />
+                <i class="fas fa-home"></i>
+              </div>
             </div>
 
             <div class="camp">
               <label for="city">City</label>
-              <input
-                type="text"
-                id="city"
-                name="userCtiy"
-                placeholder="Enter your city..."
-                required
-              />
-              <i class="fas fa-city"></i>
+              <div class="nput">
+                <input
+                  type="text"
+                  id="city"
+                  name="userCtiy"
+                  placeholder="Enter your city..."
+                  required
+                />
+                <i class="fas fa-city"></i>
+              </div>
             </div>
 
-            <div class="select">
-              <label for="userCountry">Country</label>
-              <select name="userCountry" id="country" required>
-                <option value="turkey">Turkey</option>
-                <option value="germany">Germany</option>
-                <option value="usa">Usa</option>
-                <option value="canada">Canada</option>
-                <option value="uk">uk</option>
-              </select>
-              <i class="fas fa-globe-europe"></i>
+            <div class="bottomblok">
+              <div class="camp">
+                <label for="userCountry">Country</label>
+                <div class="nput">
+                  <select name="userCountry" id="country" required>
+                    <option value="turkey">Turkey</option>
+                    <option value="germany">Germany</option>
+                    <option value="usa">Usa</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">uk</option>
+                  </select>
+                  <i class="fas fa-globe-europe"></i>
+                </div>
+              </div>
+              <div class="camp post">
+                <label for="pCode">Post Code</label>
+                <div class="nput">
+                  <input
+                    type="text"
+                    name="userPostCode"
+                    id="pCode"
+                    placeholder="Enter your postal code..."
+                    required
+                  />
+                  <i class="fas fa-mail-bulk"></i>
+                </div>
+              </div>
             </div>
-            <div class="postCode">
-              <label for="pCode">Post Code</label>
-              <input
-                type="text"
-                name="userPostCode"
-                id="pCode"
-                placeholder="Enter your postal code..."
-                required
-              />
-              <i class="fas fa-mail-bulk"></i>
-            </div>
-            <div class="campo">
+            <div class="check">
               <input type="checkbox" name="reminder" id="user-reminder" />
               <label for="reminder">See this information next time</label>
             </div>
