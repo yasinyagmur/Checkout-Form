@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 main {
@@ -15,7 +16,7 @@ main {
 }
 
 .checkoutTitle {
-  font-family: Mon, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 3rem;
   font-weight: 500;
@@ -26,7 +27,6 @@ main form{
     width: 80%;
 }
 .dform{
-        font-family: Mon;
         position: relative;
         display: block;
 }
@@ -92,6 +92,101 @@ main form{
     color: #828282;
     font-size: 1rem;
     margin: 10px 10px;
+}
+.check {
+    margin-bottom: 0.7rem;
+}
+
+.button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+.button #btn-submit{
+    width: 35%;
+    height: 5vh;
+    background-color: #ed8020;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.productPanel{
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e1e1;
+    padding: 1rem;
+    height: fit-content;
+    border-radius: 10px;
+    min-width: max-content;
+}
+.backBag{
+    display: flex;
+    flex-direction: row;
+
+}
+.productPanel img {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+.info{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.info .content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.info .content p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.info p strong{
+    color: #ed8020;
+}
+.shoes{
+    display: flex;
+    flex-direction: row;
+}
+.quantity-controller{
+    display: flex;
+    line-height: 1rem;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 5rem;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    font-size: 1.5rem;    
+    padding: .7rem;
+    width: 12rem;
+    
+}
+.quantity-controller button i{
+    display: flex;
+    width: 1.3rem;
+    height: 1.7rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.buy-detail{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #4f4f4f;
+    font-size: 1.3rem;
+    color: #4f4f4f;
+    height: 3rem;
+    padding: .5rem;
 }
 
 
